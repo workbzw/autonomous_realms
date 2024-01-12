@@ -1,0 +1,14 @@
+[package]
+name = "autonomous_realms"
+version = "1.0.0"
+authors = []
+
+[addresses]
+autonomous_realms = "_"
+aptos_framework = "0x1"
+
+[dev-addresses]
+
+[dependencies]
+AptosFramework = { local = "../../framework/aptos-framework" }
+AptosTokenObjects = { local = "../../framework/aptos-token-objects" }
